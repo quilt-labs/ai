@@ -45,7 +45,6 @@
   "keywords": [
     "ai"
   ],
-  "packageManager": "pnpm@8.6.9",
   "prettier": {
     "tabWidth": 2,
     "useTabs": false,
@@ -54,6 +53,14 @@
     "trailingComma": "all"
   },
   "workspaces": [
-    "tools/eslint-config"
+    "packages/anthropic",
+    "packages/core",
+    "packages/google", "packages/google-vertex",
+    "packages/mistral",
+    "packages/openai",
+    "packages/provider",
+    "packages/provider-utils",
+    "tools/eslint-config",
+    "tools/ai-tsconfig"
   ]
 }
